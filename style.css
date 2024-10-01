@@ -1,0 +1,351 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+nav li{
+    font-family: Open Sans;
+}
+
+.heading_section h1{
+    font-family: Poppins;
+}
+.heading_section h1+p{
+    font-family: Open Sans;
+}
+
+.container_box{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.container_box > div{
+    width: 50%;
+}
+.container_box > div:first-child{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+.container_box > div:first-child h2{
+    margin-top: 20px;
+    color: #0A0103;
+    font-weight: bold;
+    font-size: 34px;
+}
+.container_box > div:first-child div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+}
+.container_box > div:last-child{
+    padding: 5%;
+}
+.container_box > div:last-child form{
+    padding: 4%;
+    box-shadow: 0px 4px 6px -2px #0000000D;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+    box-shadow: 0px -2px 11px -2px #0000001A;
+    border-radius: 16px;
+    width: 100%;
+}
+form > input{
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0px 10px 0px;
+}
+form h4{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.check{
+    border: 1px solid #CECCCD;
+    padding: 22px 21px 22px 21px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+.submit-btn{
+    width: 100%;
+    background: #ED0331;
+    margin-top: 20px;
+    top: 611px;
+    left: 32px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+.job_role_section{
+
+}
+
+.job_role_section > div > h2{
+    margin-top: 20px;
+    color: #0A0103;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+}   
+
+.job_role_section > div > ul{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: Open Sans;
+}
+.job_role_section > div > div {
+    width: 55%;
+    margin: auto;
+    margin-top: 20px;
+}
+.job_role_section > div > div ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+.job_role_section > div > div ul li{
+   padding: 8px 12px 8px 12px;
+   border-radius: 8px;
+   background: #F7F7FF;
+   color: #6E71CC;
+}
+.why_hire{
+    margin-top: 50px;
+    padding: 5% 0%;
+}
+.why_hire > h2{
+    margin-top: 20px;
+    color: #0A0103;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+} 
+.hire_cards{
+    width: 80%;
+    border-radius: 32px;
+    background: #F6EDE7;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+    margin-top: 50px;
+}  
+
+.hire_cards > div{
+    background: #FFFFFF;
+    border: 1px solid #F6EDE7;
+    border-radius: 32px;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.svg-bg{
+    background: #F6EDE7;
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    border-radius: 32px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why_hire  button{
+    padding: 16px 24px 16px 24px;
+    border-radius: 8px;
+    background: #ED0331;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: 20%;
+}
+
+footer{
+    padding-bottom: 30px;
+    background: #0A0103;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.top_footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 0px 0px #F3F2F233;
+}
+.top_footer > div{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.top_footer ul{
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+}
+
+.top_footer i{
+    font-size: 20px;
+}
+.bottom_footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.campus_part{
+    width: 40%;
+}
+.campus_part > h3{
+    font-size: 20px;
+    width: 35%;
+}
+.bottom_footer ul li{
+    margin-bottom: 10px;
+}
+.campus{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.campus > div{
+    text-align: center;
+}
+.campus > div >div{
+    background: #21191B;
+    padding: 20px;
+    border-radius: 20px;
+    width: 70px;
+    text-align: center;
+
+}
+.campus > div >div i{
+    font-size: 20px;
+}
+
+@media (max-width:667px){
+    .container_box{
+        flex-direction: column;
+        width: 90%;
+    }
+    .container_box > div{
+        width: 100%;
+    }
+    .container_box > div:first-child div{
+        height: 300px;
+    }
+    .container_box > div:last-child{
+        padding: 0%;
+    }
+    .job_role_section > div > h2{
+        font-size: 25px;
+        text-align: center;
+    }  
+    .job_role_section > div > ul{
+        width: 80%;
+        flex-direction: column;
+    }
+    .job_role_section > div > ul li{
+        margin-top: 10px;
+    }
+    .job_role_section > div > div {
+        width: 80%;
+    }
+    .job_role_section > div > div ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .why_hire{
+        background: #F6EDE7;
+
+    }
+    .hire_cards{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .hire_cards > div{
+        width: 50%;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .why_hire  button{
+        width: 45%;
+    }
+    .bottom_footer{
+        order: -1;
+        flex-direction: column;
+        align-items: start;
+    }
+    .bottom_footer ul{
+        margin-top: 20px;
+    }
+    .campus_part{
+        width: 100%;
+    }
+    .campus{
+        display: none;
+    }
+    .campus_part h3{
+        margin-top: 20px;
+        width: 100%;
+        box-shadow: 0px 1px 0px 0px #97979740, 0px -1px 0px 0px #97979740;
+        padding: 3% 0%;
+    }
+    .top_footer{
+        box-shadow: none;
+    }
+    .top_footer > img , .top_footer > div p{
+        display: none;
+    }
+    .top_footer div{
+        width: 100%;
+    }
+    .top_footer ul{
+        margin: auto;
+        width: 80%;
+        margin-top: 20px;
+    }
+}
